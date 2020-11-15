@@ -1,0 +1,40 @@
+2020-11-15T20:18:28.766Z :: verbose :: [Mongoose] :: connection url: mongodb://localhost:8001/?replicaSet=enkrealtime
+2020-11-15T20:18:28.839Z :: verbose :: [Server] :: :: Inicia creacion de server express() :: 
+2020-11-15T20:18:28.839Z :: verbose :: [Server] :: :: Inicia configuraciones de seguridad y rendimiento para servidor express() :: 
+2020-11-15T20:18:28.842Z :: verbose :: [Server] :: :: Termina configuraciones de seguridad y rendimiento para servidor express() :: 
+2020-11-15T20:18:28.842Z :: verbose :: [Server] :: :: Inicia integracion de rutas :: 
+2020-11-15T20:18:28.842Z :: verbose :: [Server] :: :: Termina integracion de rutas :: 
+2020-11-15T20:18:28.842Z :: verbose :: [Server] :: :: Termina creacion de server express() :: 
+2020-11-15T20:18:28.843Z :: verbose :: [Mongoose] :: Server is trying connect to MongoDb >> mongodb://localhost:8001/?replicaSet=enkrealtime
+2020-11-15T20:18:28.868Z :: info :: [Mongoose] :: ready to use, connection to MongoDb >> mongodb://localhost:8001/?replicaSet=enkrealtime >> SUCCESS ::
+2020-11-15T20:18:28.871Z :: verbose :: [Server] :: init mongo connection success ? true :: proccess to start: Server
+2020-11-15T20:18:28.873Z :: info :: [Server] :: 
+2020-11-15T20:18:28.873Z :: info :: [Server] :: ************************************************************************
+2020-11-15T20:18:28.873Z :: info :: [Server] ::  SERVER RUNNING ON PORT: 3000
+2020-11-15T20:18:28.874Z :: info :: [Server] ::  RUNNING ON production MODE
+2020-11-15T20:18:28.874Z :: info :: [Server] ::  APPNAME:  Cake Shop Management API
+2020-11-15T20:18:28.874Z :: info :: [Server] ::  VERSION:  1.0.0
+2020-11-15T20:18:28.874Z :: info :: [Server] ::  PROCESS ID: 82762
+2020-11-15T20:18:28.874Z :: info :: [Server] ::  INIT DATE: Sun Nov 15 2020 14:18:28 GMT-0600 (GMT-06:00) 
+2020-11-15T20:18:28.874Z :: info :: [Server] :: ************************************************************************
+2020-11-15T20:18:28.874Z :: info :: [Server] :: 
+2020-11-15T20:29:14.051Z :: verbose :: [Mongoose] :: connection url: mongodb://localhost:8001/?replicaSet=enkrealtime
+2020-11-15T20:29:14.121Z :: verbose :: [Server] :: :: Inicia creacion de server express() :: 
+2020-11-15T20:29:14.124Z :: verbose :: [Mongoose] :: Server is trying connect to MongoDb >> mongodb://localhost:8001/?replicaSet=enkrealtime
+2020-11-15T20:29:14.121Z :: verbose :: [Server] :: :: Inicia configuraciones de seguridad y rendimiento para servidor express() :: 
+2020-11-15T20:29:14.123Z :: verbose :: [Server] :: :: Termina configuraciones de seguridad y rendimiento para servidor express() :: 
+2020-11-15T20:29:14.123Z :: verbose :: [Server] :: :: Inicia integracion de rutas :: 
+2020-11-15T20:29:14.123Z :: verbose :: [Server] :: :: Termina integracion de rutas :: 
+2020-11-15T20:29:14.123Z :: verbose :: [Server] :: :: Termina creacion de server express() :: 
+2020-11-15T20:29:14.150Z :: info :: [Mongoose] :: ready to use, connection to MongoDb >> mongodb://localhost:8001/?replicaSet=enkrealtime >> SUCCESS ::
+2020-11-15T20:29:14.152Z :: verbose :: [Server] :: init mongo connection success ? true :: proccess to start: Server
+2020-11-15T20:29:14.154Z :: info :: [Server] :: 
+2020-11-15T20:29:14.154Z :: info :: [Server] :: ************************************************************************
+2020-11-15T20:29:14.155Z :: info :: [Server] ::  SERVER RUNNING ON PORT: 3000
+2020-11-15T20:29:14.155Z :: info :: [Server] ::  RUNNING ON production MODE
+2020-11-15T20:29:14.155Z :: info :: [Server] ::  APPNAME:  Cake Shop Management API
+2020-11-15T20:29:14.155Z :: info :: [Server] ::  VERSION:  1.0.0
+2020-11-15T20:29:14.155Z :: info :: [Server] ::  PROCESS ID: 85951
+2020-11-15T20:29:14.155Z :: info :: [Server] ::  INIT DATE: Sun Nov 15 2020 14:29:14 GMT-0600 (GMT-06:00) 
+2020-11-15T20:29:14.155Z :: info :: [Server] :: ************************************************************************
+2020-11-15T20:29:14.155Z :: info :: [Server] :: 

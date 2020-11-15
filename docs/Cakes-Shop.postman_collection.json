@@ -1,0 +1,228 @@
+{
+	"info": {
+		"_postman_id": "29161d53-6ce3-46bb-a90f-d020d7fc106e",
+		"name": "Cakes-Shop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "create cakes",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Wiz3l1ne=$%!",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "wizeline01",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"milkc\",\n\t\"price\": 12.1,\n\t\"flavors\": [\"chocolate\", \"strawberries\"]\n}"
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/cakes",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"cakes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get cakes list",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Wiz3l1ne=$%!",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "wizeline01",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/cakes",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"cakes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get cake by name",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Wiz3l1ne=$%!",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "wizeline01",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/cakes/milk",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"cakes",
+						"milk"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update cake",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Wiz3l1ne=$%!",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "wizeline01",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"price\": 12.7,\n\t\"flavors\": [\"strawberries\"]\n}"
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/cakes/milk",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"cakes",
+						"milk"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "chocolate",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "remove a cake by name",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Wiz3l1ne=$%!",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "wizeline01",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/cakes/milk",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"cakes",
+						"milk"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
